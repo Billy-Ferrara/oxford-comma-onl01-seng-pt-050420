@@ -10,6 +10,6 @@ def oxford_comma(array)
       array.join(', ')
 
     else
-      array[0..-1].join(", ").insert(32, " and")
+      nil
     end
 end
